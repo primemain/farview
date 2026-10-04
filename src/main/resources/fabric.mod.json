@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "farview",
+  "version": "${version}",
+  "name": "Far View",
+  "description": "Keeps chunks loaded by YOUR render distance, not the server's.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["farview.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.2"
+  }
+}
