@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.farview.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ClientChunkCacheMixin",
+    "ClientPacketListenerMixin",
+    "OptionsMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
